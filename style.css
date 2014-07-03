@@ -1,0 +1,72 @@
+/*
+Theme Name: B_cultura laB
+Theme URI: 
+Author: B_cultura
+Author URI: http://bcultura.com/
+Description: HTML5 Blank theme with Twitter Bootstrap Framework
+Version: 1.0
+License: 
+License URI: 
+Tags: 
+Text Domain: custom_fricolaB
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.affix {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1030;
+}
+
+.front-page-header {
+    height: 450px;
+    margin-bottom: 0px;
+}
+
+.jumbotron {
+    background: url(../../uploads/2014/05/tecnologia-accesible.jpg) no-repeat fixed;
+    background-size: 100% auto;
+    width: 100%;
+    text-align: center;
+    height: 450px;
+}
+
+.jumbotron h1 {
+    margin-top: 100px;
+}
+
+.navbar-default {
+    border-radius: 0;
+}
+
+#hardware-libre {
+    background: url(../../uploads/2014/05/1548096_270218586491879_8858850899403256401_o.jpg) no-repeat fixed;
+    background-size: 100% auto;
+    display: table;
+    height: 400px;
+    width: 100%;
+}
+
+#software-libre {
+    background: url(../../uploads/2014/06/software-libre.png) no-repeat fixed;
+    background-size: 100% auto;
+    display: table;
+    height: 300px;
+    width: 100%;
+}
+.well-sm {
+    border-radius: 0;
+    background-color: #000;
+    color: #999
+}
+
+.blog {
+    padding-top: 50px;
+}
+
+.single-post {
+    padding-top: 50px;
+}
