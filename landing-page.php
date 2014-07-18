@@ -1,8 +1,8 @@
 <?php
 /*
-* Posts page template file
+Template Name: Landing Page
 */
-get_header("blog"); ?>
+get_header(); ?>
         <?php 
         /* The loop: the_post retrieves the content
          * of the new Page you created to list the posts,
@@ -10,9 +10,6 @@ get_header("blog"); ?>
          */
         if ( have_posts() ) :
             while ( have_posts() ) : the_post(); ?>
-	<h1 class="entry-title">
-				<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-			</h1>
 	<?php the_content(); ?>
 	<?php endwhile; ?>
 	<?php wp_pagenavi(); ?>

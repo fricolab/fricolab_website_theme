@@ -22,8 +22,8 @@
   // using wp_enqueue_script if it has $in_footer set to false (which is the default)
   wp_head(); ?>
 </head>
-<body <?php if (is_front_page()) body_class('home','page'); body_class(); ?>>
-      <header role="banner" <?php if (is_front_page()) { echo 'class="front-page-header"'; } ?>>
+<body <?php body_class(); ?>>
+      <header role="banner">
    <?php if ( get_header_image() ) : ?>
          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php header_image(); ?>" class="header-image, img-responsive" alt="" /></a>
    <?php endif; ?>
@@ -31,13 +31,6 @@
             <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 	    <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
          </hgroup>
-      	<?php if (is_front_page()) { echo '
-        <div id="top" class="jumbotron">
-	<h1>Tecnología para humanos</h1>
-	<p>Nosotros hacemos el trabajo sucio, tú simplemente...</p><br/>
-	<a title="Quienes somos" href="#dejatellevar"><span class="btn btn-default btn-lg">Déjate llevar »</span></a>
-
-	</div>'; } ?>
       </header>
 	       <nav id="navbar" class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
 		<?php 

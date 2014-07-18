@@ -16,6 +16,5 @@
   <a href="#top" class="pull-right">Back to top</a>
   B_cultura Lab - tecnología para humanos - diseñado para todXs <?php echo date('Y'); ?>
 </div>
-</div> <!-- // .container -->
 </body>
 </html>
