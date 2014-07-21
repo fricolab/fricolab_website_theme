@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Landing Page
+Template Name: No menu
 */
 get_header("blog"); ?>
         <?php 
@@ -10,6 +10,7 @@ get_header("blog"); ?>
          */
         if ( have_posts() ) :
             while ( have_posts() ) : the_post(); ?>
+	<h1><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 	<?php the_content(); ?>
 	<?php endwhile; ?>
 	<?php wp_pagenavi(); ?>
