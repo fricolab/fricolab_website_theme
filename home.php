@@ -3,6 +3,7 @@
 * Posts page template file
 */
 get_header("blog"); ?>
+<div class="container">
         <?php 
         /* The loop: the_post retrieves the content
          * of the new Page you created to list the posts,

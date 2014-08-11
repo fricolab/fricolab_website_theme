@@ -3,6 +3,7 @@
 Template Name: No menu
 */
 get_header("blog"); ?>
+<div class="container">
         <?php 
         /* The loop: the_post retrieves the content
          * of the new Page you created to list the posts,
@@ -17,5 +18,6 @@ get_header("blog"); ?>
 	<?php else : ?>
 	<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 	<?php endif; ?>
+</div>
 <br>
 <?php get_footer(); ?>

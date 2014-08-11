@@ -8,7 +8,7 @@
  */
 
 get_header("blog"); ?>
-
+<div class="container">
  
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
  	<h1 class="entry-title">

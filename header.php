@@ -34,7 +34,7 @@
          </hgroup>
       	<?php if (is_front_page()) { echo '
         <div id="top" class="jumbotron">
-	<h1>Aplicaciones para personas como tú</h1>
+	<h1>Aplicaciones para personas</h1>
 	<p>Nosotros hacemos el trabajo sucio, tú simplemente...</p><br/>
 	<a title="Quienes somos" href="#dejatellevar"><span class="btn btn-default btn-lg">Déjate llevar »</span></a>
 
