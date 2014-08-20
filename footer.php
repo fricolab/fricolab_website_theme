@@ -14,7 +14,7 @@
 <?php wp_footer(); ?>
 <div class="well well-sm">
   <a href="#top" class="pull-right">Vuelve al inicio</a>
-  FricolaB - diseñado para todXs <?php echo date('Y'); ?>
+  <a href="/aviso-legal/">Aviso legal</a>
 </div>
 <!-- Google Code para etiquetas de remarketing -->
 <!--------------------------------------------------
