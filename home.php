@@ -12,8 +12,9 @@ get_header("blog"); ?>
         if ( have_posts() ) :
             while ( have_posts() ) : the_post(); ?>
 	<h1 class="entry-title">
-				<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-			</h1>
+		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
+	</h1>
+	<small><?php the_time('j F, Y') ?> por <?php the_author_posts_link() ?> </small> 
 	<?php the_content(); ?>
 	<?php endwhile; ?>
 	<?php wp_pagenavi(); ?>
